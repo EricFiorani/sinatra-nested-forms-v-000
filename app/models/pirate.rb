@@ -5,4 +5,5 @@ class Pirate
   PIRATES = []
 
   def initialize(params)
+    @name = params[:name]
 end
