@@ -13,6 +13,7 @@ module FormsLab
 
       params[:pirate][:ships].each do |details|
         Ship.new(details)
+      end
     end
 
   end
