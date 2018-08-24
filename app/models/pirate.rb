@@ -11,7 +11,7 @@ class Pirate
     @@pirates << self
   end@@pirates
 
-  def self.pirates
+  def self.all
     @@pirates
   end
 
