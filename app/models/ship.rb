@@ -2,7 +2,7 @@ class Ship
 
   attr_reader :name, :type, :booty
 
-  SHIPS = []
+  @@al = []
 
   def initialize(args)
     @name = args[:name]
