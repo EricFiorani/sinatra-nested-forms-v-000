@@ -5,7 +5,7 @@ module FormsLab
 
     # code other routes/actions here
     get '/' do
-      erb :'pirates/root'
+      erb :'/root'
     end
 
     get '/new' do
