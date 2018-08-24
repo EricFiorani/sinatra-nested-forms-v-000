@@ -15,4 +15,7 @@ class Ship
     SHIPS
   end
 
+  def self.delete
+    
+
 end
